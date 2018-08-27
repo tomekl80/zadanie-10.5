@@ -37,7 +37,8 @@
 		$('#accordion-jquery h3').click(function(){
 			$(this).addClass('active');
 			$(this).siblings().removeClass('active');
-		});
+			console.log(this);
+		})
 	};
 	
 	accordionJQuery();
